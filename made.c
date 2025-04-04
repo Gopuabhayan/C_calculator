@@ -2,16 +2,14 @@
 int main()
 {
     int n,r;
-    printf("enter a number\n");
+    printf("enter anumaber\n");
     scanf("%d",&n);
     r=n%2;
     if (r==0)
     {
         printf("the number is evan\n");
     }
-    else
-    {
+    else{
         printf("the number is odd\n");
     }
-    
 }
